@@ -1,11 +1,10 @@
-getal1 = float(input("Hoeveel uur heb je deze maand gewerkt?: "))
-getal2 = 8.5
-som = getal1 * getal2
+uren = float(input("Hoeveel uur heb je deze maand gewerkt?: "))
+uurloon = 8.5
+loon = uren * uurloon
 
-if getal1 > 20 :
-    resultaat = som + 25
+if uren > 20:
+    loon = loon + 25
     print("Proficiat, je krijgt een premie van 25 euro!")
-    print("Je verdient deze maand" + som + "euro")
-if getal1 <= 20 :
-    resultaat = som
-    print("Je verdient deze maand" + som + "euro.")
+
+print("Je verdient deze maand " + str(loon) + " euro.")
+
